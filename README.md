@@ -16,9 +16,9 @@ The front is a React app created with create-react-app and uses service workers 
 the app will cache all the app pages as well as any data fetched from the server in order to display them when offline.
 
 In the code you will see in App.js (in the componentDidMount function ) that there is two method for fetching profiles data :
-    1. if the user is online we will fetch the data from the server, if not we will fetch from the      cache,this is useful for apps that require a real-time synchronization with the data in the      server.
-    2. fetching from the cache first then going to the network to fetch from the server,
-        this is useful if the user can have low connectivity, so we will display data from the cache first then when the data comes from the server we will update the page
+1. if the user is online we will fetch the data from the server, if not we will fetch from the      cache,this is useful for apps that require a real-time synchronization with the data in the      server.
+2. fetching from the cache first then going to the network to fetch from the server,
+this is useful if the user can have low connectivity, so we will display data from the cache first then when the data comes from the server we will update the page
 
 I'm using the first method for simplicity.
 
