@@ -20,7 +20,7 @@ In the code you will see in App.js (in the componentDidMount function ) that the
 2. fetching from the cache first then going to the network to fetch from the server,
 this is useful if the user can have low connectivity, so we will display data from the cache first then when the data comes from the server we will update the page
 
-I'm using the first method for simplicity.
+I'm using the first method for simplicity. The code fo the Service Worker is under the public directory
 
 ## Background Sync
 
