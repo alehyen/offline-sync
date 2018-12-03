@@ -9,7 +9,7 @@ using background Sync to send any data the user requested when there is connecti
 ### Explanation
 
 The backend is a simple NodeJS server that handle a GET and a PUT request to fetch and 
-edit a collection of profiles data. (there was no need to use express since it's a simple server)
+edit a collection of profiles data. (there was no need to use express since it's a simple server, also for the database layer I'm using just memory since sql or nosql is really necessary)
 
 The front is a React app created with create-react-app and uses service workers for offline user experience.
 
