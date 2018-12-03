@@ -5,7 +5,7 @@ This project is an example of using Service Workers ina React app to cache data 
 using background Sync to send any data the user requested when there is connectivity again 
 
 ## Demo
-
+![](demo-offline-sync-ismail.gif)
 ### Explanation
 
 The backend is a simple NodeJS server that handle a GET and a PUT request to fetch and 
