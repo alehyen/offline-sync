@@ -1,7 +1,7 @@
 
 ## Offline Sync
 
-This project is an example of using Service Workers ina React app to cache data for offline use and
+This project is an example of using Service Workers in a React app to cache data for offline use and
 using background Sync to send any data the user requested when there is connectivity again 
 
 ## Demo
@@ -31,7 +31,7 @@ we will fetch all the users that need to be updated and send them to the server.
 ## Running the project
 
 ### Prerequisites 
-Node version 8.10 or later, npm version 3.5 or later
+Node version 8.10 or later, npm version 3.5 or later. 
 Since Service Workers works only with https we need a way to fetch the profiles data from the local server through https, I'm using [ngrok](https://ngrok.com/) for that, feel free to use whatever comfortable for you.
 
 In the root directory type `node server.js` to start the server and if you are using ngrok type 
