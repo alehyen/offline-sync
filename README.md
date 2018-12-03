@@ -38,3 +38,6 @@ In the root directory type `node server.js` to start the server and if you are u
 `ngrok http 8080` to access the local server through https, you will see the https link in the console, you should take it and replace the variable `apiUrl` in the front/App.js with it , do the same for the variable `apiHost` in front/public/sevice-worker-custom.js
 
 Go the front directory and type `npm install` and then `npm start` and Enjoy!
+
+PS: for the background sync you will notice that I'm making a 10s delay to synchronize data with the server when there is connectivity again,this is not necessary in a production app but I'm doing it to ensure that my ngrok server is up and running when switching between offline mode and online mode in my browser
+
