@@ -39,5 +39,5 @@ In the root directory type `node server.js` to start the server and if you are u
 
 Go the front directory and type `npm install` and then `npm start` and Enjoy!
 
-PS: for the background sync you will notice that I'm making a 10s delay to synchronize data with the server when there is connectivity again,this is not necessary in a production app but I'm doing it to ensure that my ngrok server is up and running when switching between offline mode and online mode in my browser
+PS: for the background sync you will notice that I'm making a 10s delay to synchronize data with the server when there is connectivity again,this is not necessary in a production app but I'm doing it to ensure that my ngrok server is up and running when switching between offline mode and online mode in my browser, Also I'm letting the `console.log` in the code just for debugging purposes, in a production app this won't be the case
 
